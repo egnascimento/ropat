@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<!-- bringup_min.launch
+Use Gazebo to simulate a tractor with a three-point hitch attachment.
+
+No external dependencies required to use
+-->
+<launch>
+  <group ns="robot1">
+    <include file="$(find tractor_sim_gazebo)/launch/tractor_sim.launch">
+      <arg name="robot_name"  value="tractor_1" />
+      <arg name="x" value="13.0"/>
+      <arg name="y" value="6.0"/>
+      <arg name="z" value="3"/>
+    </include>
+    <!--<include file="$(find tractor_sim_gazebo)/launch/hitch.launch"/>-->
+  </group>
+  <group ns="robot2">
+    <include file="$(find tractor_sim_gazebo)/launch/tractor_sim.launch">
+      <arg name="robot_name"  value="tractor_2" />
+      <arg name="x" value="33.0"/>
+      <arg name="y" value="36.0"/>
+      <arg name="z" value="33"/>
+    </include>
+    <!--<include file="$(find tractor_sim_gazebo)/launch/hitch.launch"/>-->
+  </group>
+</launch>
