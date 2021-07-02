@@ -3,8 +3,10 @@
 
 ## Getting Started
 ### Pre requisites
-#### Setting up ROS
+#### Setting up ROS melodic
 @Eduardo Motta: colocar aqui o passo a passo pra setup do ROS melodic.
+Pre requisites
+Ubuntu 18.04.5 LTS (Bionic Beaver)
 #### Setting up ROS
 @Eduardo Nascimento: Como baixar tractor_sim e todo o resto.
 ### Installation
