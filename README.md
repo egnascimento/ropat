@@ -22,10 +22,10 @@ Install a ROS velodyne simulator package:
 
 **1.2 Create a ROS Workspace.**
 
-* $ mkdir -p ~/catkin_ws/src
-* $ cd ~/catkin_ws/
-* $ catkin_make
-* $ source devel/setup.bash
+''' mkdir -p ~/catkin_ws/src
+''' cd ~/catkin_ws/
+''' catkin_make
+''' source devel/setup.bash
 
 **note:** if catkin command (catkin_make) not work try:
 * $ sudo apt-get install ros-melodic-catkin
@@ -35,24 +35,28 @@ Install a ROS velodyne simulator package:
 **2. Install the dependencies for simulation step to step.**
 
 **2.1 state_controller**
-* $ cd ~/catkin_ws/src
-* $ git clone https://github.com/olinrobotics/state_controller.git
-* $ cd ..
-* $ rosdep install -iry --from-paths src
-* $ cd ~/catkin_ws/
-* $ catkin_make
-* $ source devel/setup.bash
+'''console
+''' cd ~/catkin_ws/src
+''' git clone https://github.com/olinrobotics/state_controller.git
+''' cd ..
+''' rosdep install -iry --from-paths src
+''' cd ~/catkin_ws/
+''' catkin_make
+''' source devel/setup.bash
+'''
 
 **2.2 GRAVL - install with the following all the steps taken [here]** https://github.com/olinrobotics/gravl
 
 **2.3 tractor_sim_packages**
-* $ cd ~/catkin_ws/src
-* $ git clone https://github.com/olinrobotics/tractor_sim_packages.git
-* $ cd ..
-* $ rosdep install -iry --from-paths src
-* $ cd ~/catkin_ws/
-* $ catkin_make
-* $ source devel/setup.bash
+'''console
+cd ~/catkin_ws/src
+git clone https://github.com/olinrobotics/tractor_sim_packages.git
+cd ..
+rosdep install -iry --from-paths src
+cd ~/catkin_ws/
+catkin_make
+source devel/setup.bash
+'''
 
 **2.4 tractor_sim**
 * $ cd ~/catkin_ws/src
@@ -69,7 +73,10 @@ Install a ROS velodyne simulator package:
 * $ cp -R . ~/.gazebo/models
 
 ### Installation
-@Eduardo Nascimento: Como clonar, catking build, colocar world e meshes disponíveis etc...
+Once you installed tractor_sim and all its dependencies you are ready to install ropat package.
+
+Go to your src folder, clone and build it by following the steps below:
+* 
 
 ## Usage
 To run simulation:
