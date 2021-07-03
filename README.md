@@ -24,6 +24,10 @@ The picture below shows how the vertexes are strategically placed to later integ
 
 ![vertexes](res/vertexes.png)
 
+The algorithm works basically in two layers where the top layer calculates the route whereas the bottom layer calculates the path moving the tractor to the next optimal coordinate. The flowchart below shows a basic representation of this interaction.
+
+![flowchart](res/flowchart.png)
+
 Today the costs are basically connected to the distance between the vertexes however it can have the influece of other variables such as road blocks, busy segments or anything else that is particular to that operation or moment.
 
 
