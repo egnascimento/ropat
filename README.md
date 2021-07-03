@@ -66,8 +66,6 @@ Install a ROS velodyne simulator package:
 * $ cd ~/catkin_ws/src/tractor_sim/tractor_sim_gazebo/models
 * $ cp -R . ~/.gazebo/models
 
-
-@Eduardo Nascimento: Como baixar tractor_sim e todo o resto.
 ### Installation
 @Eduardo Nascimento: Como clonar, catking build, colocar world e meshes disponíveis etc...
 ## Usage
