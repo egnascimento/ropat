@@ -72,7 +72,10 @@ Install a ROS velodyne simulator package:
 @Eduardo Nascimento: Como clonar, catking build, colocar world e meshes disponíveis etc...
 
 ## Usage
-@Eduardo Nascimento
+To run simulation:
+
+
+* $ roslaunch tractor_sim_gazebo bringup.launch
 
 ## Roadmap
 Planos para o futuro, melhorias, etc.
