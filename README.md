@@ -39,6 +39,7 @@ Install a ROS velodyne simulator package:
 * $ rosdep install -iry --from-paths src
 * $ cd ~/catkin_ws/
 * $ catkin_make
+* $ source devel/setup.bash
 
 **2.2 GRAVL - install with the following all the steps taken [here]** https://github.com/olinrobotics/gravl
 
@@ -49,13 +50,21 @@ Install a ROS velodyne simulator package:
 * $ rosdep install -iry --from-paths src
 * $ cd ~/catkin_ws/
 * $ catkin_make
+* $ source devel/setup.bash
 
-**2.4 
+**2.4 tractor_sim**
+* $ cd ~/catkin_ws/src
+* $ git clone https://github.com/olinrobotics/tractor_sim.git
+* $ cd ..
+* $ rosdep install -iry --from-paths src
+* $ cd ~/catkin_ws/
+* $ catkin_make
+* $ source devel/setup.bash
 
-To use the models included in this repo, copy the contents of the folder to ~/.gazebo/models
+**Note:** To use the models included in this repo, copy the contents of the folder to ~/.gazebo/models
 
-    cd ~/catkin_ws/src/tractor_sim/tractor_sim_gazebo/models
-    cp -R . ~/.gazebo/models
+* $ cd ~/catkin_ws/src/tractor_sim/tractor_sim_gazebo/models
+* $ cp -R . ~/.gazebo/models
 
 
 @Eduardo Nascimento: Como baixar tractor_sim e todo o resto.
