@@ -28,7 +28,7 @@ Install a ROS velodyne simulator package:
 **note:** if catkin command (catkin_make) not work try:
 * $ sudo apt-get install ros-melodic-catkin
 
-#### Setting up ROS Tractor_sim simulation
+#### Setting up ROS tractor_sim simulation
 
 **2. Install the dependencies for simulation step to step.**
 
@@ -49,6 +49,9 @@ Install a ROS velodyne simulator package:
 * $ rosdep install -iry --from-paths src
 * $ cd ~/catkin_ws/
 * $ catkin_make
+
+**2.4 
+
 To use the models included in this repo, copy the contents of the folder to ~/.gazebo/models
 
     cd ~/catkin_ws/src/tractor_sim/tractor_sim_gazebo/models
