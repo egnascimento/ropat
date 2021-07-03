@@ -4,7 +4,9 @@
 ## Getting Started
 
 ### Pre requisites
-Ubuntu 18.04.5 LTS (Bionic Beaver).
+Ubuntu 18.04.5 LTS (Bionic Beaver)
+
+ROS Melodic (Morenia)
 
 #### Setting up ROS Melodic "Morenia"
 
