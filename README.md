@@ -74,6 +74,6 @@ Install a ROS velodyne simulator package:
 @Eduardo Nascimento
 ## Roadmap
 Planos para o futuro, melhorias, etc.
-proposta de fazer funcionar o nav_goal como melhoria?.
+proposta de fazer funcionar o nav_goal como melhoria?, a tradução de um nó em outro? porque ninguém fez isso ainda?.
 ## Acknowledgments
 Agradecer aos professores e todos que participaram e ajudaram direta ou indiretamente.
