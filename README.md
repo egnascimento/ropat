@@ -51,7 +51,7 @@ sudo apt-get install python-rosdep
 
 Install a ROS velodyne simulator package:
 ```console
-* $ sudo apt-get install ros-melodic-velodyne-simulator
+sudo apt-get install ros-melodic-velodyne-simulator
 ```
 **1.2 Create a ROS Workspace.**
 ```console
